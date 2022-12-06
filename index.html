@@ -3,21 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <title>Frontend Mentor | News homepage</title>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
-  <title>Frontend Mentor | News homepage</title>
+ 
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
 
 </head>
 <body>
-<header>
-    <div class="logo">
-      <img src="assets/images/logo.svg" class="imagem__logo">
-      <button type="menu" class="menu">Menu</button>
-  </div>
-</header>
+  <header class="cabecalho">
+      <div class="container">
+        <img src="assets/images/logo.svg" class="container__imagem">
+        <input type="checkbox" id="menu" class="container__botao">  
+        <label for="menu">
+          <span class="cabecalho__menu container__imagem"></span>
+        </label>
+        <ul class="lista__menu">
+          <li class="lista-menu__item">Home</li>
+          <li class="lista-menu__item">New </li>
+          <li class="lista-menu__item">Popular</li>
+          <li class="lista-menu__item">Trending</li>
+          <li class="lista-menu__item">Categories</li>
+       </ul>
+      </div>
+  </header>
 
 
   

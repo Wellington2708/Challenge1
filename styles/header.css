@@ -1,0 +1,29 @@
+.cabecalho__menu {
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabecalho {
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.lista__menu {
+    position: absolute;
+    left: 75%;
+    top: 2%;
+}
