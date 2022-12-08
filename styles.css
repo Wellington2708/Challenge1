@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
-/* font-family: 'Inter', sans-serif; */
+
 
 @import url("styles/header.css");
 
@@ -8,8 +8,8 @@
 
 
 :root {
-    --cor-de-fundo: #ffffff;
-    --cor-titulo: #05051e;
+    --cor-de-fundo: #e8e2e2;
+    --cor-fonte: #05051e;
 }
 
 body {
