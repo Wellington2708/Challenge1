@@ -1,17 +1,17 @@
+
 .cabecalho {
     background-color: var(--cor-de-fundo);
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     
 }
-
 
 .container {
     display: flex;
     align-items: center;
     
-   
 }
 
 .imagem__logo {
@@ -19,6 +19,7 @@
 }
 
 .container__botao {
+
     display: none;
 }
 
@@ -26,36 +27,26 @@
     display: block;
 }
 
-
-.cabecalho__menu {
-    width: 30px;
-    height: 27px;
+.container-imagem__menu {
+    width: 46px;
+    height: 40px;
+    padding: 1em;
     background-image: url("../assets/images/icon-menu.svg");
     background-repeat: no-repeat;
-    background-position: center;
-    
-   
-    
-}
-
-
-.container-imagem__menu {
+    background-position: center;  
     display: flex;
 
+
 }
-
-
 
 .lista__menu {
     display: none;
     background-color: #FFFFFF;
-    position: absolute;
-    left: 150px;
+    position:absolute;
+    left: 130px;
     top: 0px;
-    width:209px;
+    width:70vw;
     height: 878px;
-    
-    
    
 }
 
@@ -70,6 +61,7 @@
 
 .home__menu {
     margin-top: 100px;
+
 }
 
 
