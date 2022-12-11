@@ -1,25 +1,27 @@
 
 .cabecalho {
     background-color: var(--cor-de-fundo);
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-
-    
-}
-
-.container {
     display: flex;
     align-items: center;
-    
 }
 
 .imagem__logo {
     padding: 1em;
 }
 
-.container__botao {
+.container_menu{
+    display: block;
+}
 
+.container__botao {
+    display: none;
+}
+
+#menu {
+    position: absolute;
+    top: 24px;
+    right: 19px;
     display: none;
 }
 
