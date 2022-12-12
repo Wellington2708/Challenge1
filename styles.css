@@ -15,9 +15,7 @@
 body {
     background-color: var(--cor-de-fundo);
     font-family: 'Inter', sans-serif;
+    height: 100vh;
       
 }
 
-@media (max-width: 600px){
-    
-}
